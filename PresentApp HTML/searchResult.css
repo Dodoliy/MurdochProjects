@@ -1,0 +1,105 @@
+body
+{
+	margin: 0;
+	font-family: Consolas, monaco, monospace;
+}
+.container {
+	background-color: #FFFFFF;
+	width:100%;
+	border: 1px solid #333536;
+	padding-bottom: 50px;
+}
+
+/*SEARCH BAR*/
+#myInput{
+	background-image: url("searchIcon.png");
+	background-position 10px 12px;
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+	width: 30%;
+	font-size: 16px;
+	padding: 12px 20px 12px 40px;
+	border: 1px solid #333536;
+	margin-bottom: 12px;
+	margin-left: 30%;
+	margin-top: 60px;
+	font-weight: bold;
+}
+/*STUDENT LIST */
+#studentList
+{
+	width: 100%;
+	/*remove default listing styling */
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#studentList li a {
+  border: 1px solid #E5E5E5; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block;
+  margin-bottom: 10px;
+}
+#studentList li a:hover:not(.header){
+	background-color: #eee;
+}
+#studentList li a:active{
+border: 1px solid #E5E5E5; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block;
+  margin-bottom: 10px;
+}
+/*RED BAR AT THE END*/
+.endbar
+{
+	background-color:#FF0000;
+	overflow:hidden;
+	height:30px;
+	width:100%;
+	border: 1px solid #333536;
+
+}
+/*ALL STUDENT CONTAINER*/
+.students	
+{
+	width: 45%;
+	margin-top: 75px;
+	margin-left: 28%;
+}
+/*STUDENT INFO*/
+.studentInfo
+{
+	text-align:left;
+	font-family: "Arial", sans-serif;
+	font-style-type: italic;
+	
+}
+/*STUDENT PICTURE*/
+.avatar
+{
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	border: 1px solid #433F3F;
+	margin-right: 20px;
+	float: left;
+	margin-left: 20px;
+	
+}
+
+#profileButton
+{
+	width: 100%;
+	
+}

@@ -1,0 +1,50 @@
+body
+{
+	margin: 0;
+	font-family: Consolas, monaco, monospace;
+}
+.container {
+	background-color: #FFFFFF;
+	width:100%;
+	border: 1px solid #333536;
+	padding-bottom: 50px;
+}
+
+.container {
+	background-color: #FFFFFF;
+	width:100%;
+	border: 1px solid #333536;
+	padding-bottom: 50px;
+}
+
+.remark{
+	font-family: Consolas, monaco, monospace;
+	margin-left: 9%;
+	width: 80%;
+	height: 160px;
+	margin-top: 20px;
+	padding: 20px; 
+	border: 2px solid #000000;
+	background-color: #F4F4F4;
+}
+.comment
+{
+	margin-top: 10px;
+	background-color: black;
+	height: 100px;
+	color: white;
+}
+
+h1
+{
+	margin-left: 9%;
+}
+.endbar
+{
+	background-color:#FF0000;
+	overflow:hidden;
+	height:30px;
+	width:100%;
+	border: 1px solid #333536; 	
+
+}
